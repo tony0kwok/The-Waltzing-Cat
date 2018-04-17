@@ -23,6 +23,8 @@
 struct cat{
     int type; //0~10
     int reverse; //boolean(useless now in design, please get rid of it or redesign it when you have time)
+                    //I have a idea, change front and back into one variable face[0/1] use cplayer xnor reverse
+                    //control the face we want to display
     int front; //color of the front
     int back;   //color of the back
 };
